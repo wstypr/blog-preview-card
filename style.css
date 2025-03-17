@@ -79,6 +79,7 @@ h1 {
   display: flex;
   gap: 12px;
   align-items: center;
+  font-weight: 800;
 }
 
 .author-img {
