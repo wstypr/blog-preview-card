@@ -5,8 +5,8 @@
 }
 
 * {
-  margin: 0px;
-  padding: 0px;
+  /* margin: 0px;
+  padding: 0px; */
   font-family: Figtree, Arial, Helvetica, sans-serif;
   color: var(--gray-950);
 }
@@ -19,15 +19,19 @@ body {
   background-color: var(--yellow);
 }
 
+img {
+  display: block;
+}
+
 .card {
   max-width: 384px;
   padding: 24px;
   margin: 0 24px;
-  box-sizing: border-box;
   border: 1px solid var(--gray-950);
   border-radius: 20px;
   background-color: white;
   box-shadow: 8px 8px black;
+  box-sizing: border-box;
 }
 
 .card:hover {
@@ -45,6 +49,8 @@ body {
   padding: 4px 12px;
   font-weight: 800;
   font-size: 14px;
+  line-height: 150%;
+  border-radius: 4px;
   margin-bottom: 12px;
   background-color: var(--yellow);
 }
@@ -85,4 +91,5 @@ h1 {
 
 .author-img {
   max-width: 32px;
+  aspect-ratio: 1/1;
 }
